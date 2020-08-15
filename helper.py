@@ -43,13 +43,11 @@ def disp_index():
 
 
 def authenticate_api():
-    # I prefer to have the api keys stored in environment variables as it is more safe
-    # but as you might want to run the program so I have directly stored it in variable
-    # After your code review i will change that.
-    consumer_key = '1ied6i6If0SO2ECv8meKv06y3'
-    consumer_secret = 'I8z8UkitcBn8rdcSc6LvxKtTP1LGPNocAETjr2fbRhqKffXVD4'
-    access_token = '1291147576746692610-PC0XQ8U7KAvx3PRrFsIFk2YlmXeQaA'
-    access_secret = 'oCetsPy4bC26qSe5lMPrCq8TbHcuTEF946QEOm73K2qKn'
+    
+    consumer_key = 'Should Be stored as enviornment variable'
+    consumer_secret = 'Should Be stored as enviornment variable'
+    access_token = 'Should Be stored as enviornment variable'
+    access_secret = 'Should Be stored as enviornment variable'
 
     # authenticate to twitter api
     logger = logging.getLogger()
